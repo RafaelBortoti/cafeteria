@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.center {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header.topo {
+    width: 100%;
+    max-width: 2048px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #604829;
+}
+
+.topo img {
+    width: 100px;
+}
+
+.topo ul {
+    display: flex;
+}
+
+.topo li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.topo ul li a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: #c4a47c;
+}
+
+section.banner {
+    height: 100vh;
+    background-image: url(../img/parallax-imagem1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 85px;
+}
+
+section.informacoes .center .texto-informacoes {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.informacoes .center .texto-informacoes h2 {
+    line-height: 80px;
+    font-family: 'Oswald';
+    color: #c4a47c;
+}
+
+.informacoes .center .texto-informacoes p {
+    line-height: 30px;
+    font-family: 'Lato';
+    color: #666;
+}
+
+.informacoes .imagem2-parallax {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/parallax-imagem2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.informacoes .imagem2-parallax h3 {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+    background-color: #604829;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.informacoes .center .texto2-informacoes {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.informacoes .center .texto2-informacoes h2 {
+    line-height: 80px;
+    font-family: 'Oswald';
+    color: #c4a47c;
+}
+
+.informacoes .center .texto2-informacoes p {
+    line-height: 30px;
+    font-family: 'Lato';
+    color: #666;
+}
+
+.informacoes .imagem3-parallax {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/parallax-imagem3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.informacoes .imagem3-parallax h3 {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+    background-color: #5f3a0a;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.informacoes .center .texto3-informacoes {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.informacoes .center .texto3-informacoes h2 {
+    line-height: 80px;
+    font-family: 'Oswald';
+    color: #c4a47c;
+}
+
+.informacoes .center .texto3-informacoes p {
+    line-height: 30px;
+    font-family: 'Lato';
+    color: #666;
+}
+
+section.contatos {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/parallax-imagem4.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.contatos .center {
+    text-align: center;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contatos .center h2 {
+    width: 400px;
+    line-height: 40px;
+    font-family: 'Oswald';
+    color: white;
+    background-color: #604829;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    border-radius: 6px;
+}
+
+.contatos .center iframe {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+.box-contatos {
+    background-color: #604829;
+    width: 100%;
+    max-width: 550px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 6px;
+}
+
+.box-contatos p {
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Lato';
+    text-shadow: 4px 4px 5px black;
+}
+
+section.horarios {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cafeteria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.horarios .center {
+    padding: 100px 0;
+}
+
+.horarios .center h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.horarios .center .lista-horarios {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    
+}
+
+.lista {
+    padding: 0 20px;
+}
+
+.lista li { /* itens da lista */
+    position: relative;
+    list-style-type: none;
+}
+
+.lista li div{
+    width: 70%;
+    max-width: 716px;
+    height: 1px;
+    background-color: #acacac;
+    position: absolute;
+    left: 30px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 50%;
+}
+
+.lista li h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.lista li p{ /* parágrafos */
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    position:  relative;
+    background-color: black;
+}
+
+footer a {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+
+footer a img {
+    width: 50px;
+}
+
+footer .center {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Fraunces', serif;
+    line-height: 30px;
+}
+
+/*tablet*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
